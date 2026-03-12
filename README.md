@@ -1,5 +1,13 @@
 # OmniLiteFuzzy 🪶
 
+<p align="left">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" alt="Arduino">
+  <img src="https://img.shields.io/badge/Embedded-Systems-black?style=for-the-badge&logo=cpu-fill&logoColor=white" alt="Embedded Systems">
+  <img src="https://img.shields.io/badge/Pure%20STL-Zero--Dependency-orange?style=for-the-badge" alt="Zero Dependency">
+</p>
+---
+
 **A blazing fast, memory-safe, and pure C++ Fuzzy Logic library supporting Mamdani, Sugeno, and Tsukamoto inference methods.**
 
 OmniLiteFuzzy is designed specifically for embedded systems, microcontrollers (like Arduino, ESP8266, ESP32, STM32), and resource-constrained environments. By avoiding continuous dynamic memory allocation (`new`/`malloc`), it completely eliminates the risk of heap fragmentation—a common issue in long-running IoT devices.
