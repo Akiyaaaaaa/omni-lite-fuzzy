@@ -6,6 +6,7 @@
   <img src="https://img.shields.io/badge/Embedded-Systems-black?style=for-the-badge&logo=cpu-fill&logoColor=white" alt="Embedded Systems">
   <img src="https://img.shields.io/badge/Pure%20STL-Zero--Dependency-orange?style=for-the-badge" alt="Zero Dependency">
 </p>
+
 ---
 
 **A blazing fast, memory-safe, and pure C++ Fuzzy Logic library supporting Mamdani, Sugeno, and Tsukamoto inference methods.**
@@ -22,18 +23,6 @@ Since it is written in **Pure C++** with zero framework dependencies, you can co
 - **Lightweight Defuzzification:** \* High-precision discrete Centroid (Center of Gravity) for Mamdani.
   - Ultra-fast Weighted Average for Sugeno and Tsukamoto.
 - **Intuitive OOP API:** Easy to read, easy to write, and easy to maintain.
-
----
-
-## 🚀 Why OmniLiteFuzzy? (vs. eFLL)
-
-Many popular fuzzy logic libraries (like eFLL) rely heavily on dynamic object creation for every Rule, Antecedent, and Consequent. While conceptually pure, this consumes massive amounts of SRAM and CPU cycles.
-
-**OmniLiteFuzzy simplifies this:**
-
-1. It collapses the Antecedent/Consequent chain into a single, highly efficient `FuzzyRule` object.
-2. It uses optimized discrete numerical integration for Mamdani, running exponentially faster on simple processors.
-3. It includes native `omni_min` and `omni_max` template functions, freeing it from the standard `<algorithm>` library bloat.
 
 ---
 
